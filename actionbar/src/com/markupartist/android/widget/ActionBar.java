@@ -216,7 +216,7 @@ public class ActionBar extends RelativeLayout implements OnClickListener {
 			labelView.setImageResource(action.getDrawable());
 		else
 			labelView
-					.setImageResource(R.drawable.ic_menu_moreoverflow_normal_holo_dark);
+					.setImageResource(R.drawable.ic_action_overflow);
 
 		view.setTag(action);
 		view.setOnClickListener(this);
